@@ -1,0 +1,29 @@
+.UserBox{
+    padding: 30px;
+    display: flex;
+    border: none;
+    background-color: rgb(214, 197, 167);
+    border-radius: 20px;
+    margin: 25px 25px auto auto;
+    cursor: pointer;
+    height: 100px;
+    width: 600px;
+
+}
+.UserBox .info{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.UserBox .info p {
+    border: none;
+    background-color: rgb(227, 219, 196);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px 0px 5px auto;
+}
+.UserBox img {
+    width: 100px;
+    height: 100px;
+    padding-left: 70px;
+}

@@ -1,0 +1,57 @@
+.Home .func{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.Home select{
+    min-width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 30px;
+    padding-left: 10px;
+    background-color: antiquewhite;
+    border: 2px solid rgb(168, 139, 102);
+}
+.Home select:focus{
+    outline: none;
+}
+.Home input {
+    width: 150px;
+    margin-right: 30px;
+    padding: 0px 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(168, 139, 102);
+    background-color: antiquewhite;
+}
+.Home input:focus{
+    outline: none;
+}
+
+.paging {
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paging button{
+    background-color: rgb(210, 188, 164);
+    border: none;
+    height: 30px;
+    margin: 0px 10px;
+    color: rgb(155, 136, 105);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.paging button.active {
+    font-weight: bold;
+    background-color: #515005;
+    color: white;
+}
+
+.paging button:hover{
+    background-color: antiquewhite;
+}
